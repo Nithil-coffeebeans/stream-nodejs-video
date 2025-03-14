@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Video Streaming</title>
+    <style>
+      body {
+        text-align: center;
+        font-family: Arial, sans-serif;
+      }
+      video {
+        width: 80%;
+        max-width: 720px;
+        margin-top: 20px;
+        max-height: 400px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Video Streaming with Node.js & EJS</h1>
+    <video controls>
+      <source src="/video" type="video/mp4" />
+      Your browser does not support the video tag.
+    </video>
+  </body>
+</html>

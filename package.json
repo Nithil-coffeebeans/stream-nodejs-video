@@ -1,0 +1,29 @@
+{
+  "name": "stream-nodejs-video",
+  "version": "1.0.0",
+  "description": "Simple video streaming app uisng node js stream",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nithil-coffeebeans/stream-nodejs-video.git"
+  },
+  "keywords": [
+    "nodejs",
+    "stream",
+    "video"
+  ],
+  "author": "Nithil",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Nithil-coffeebeans/stream-nodejs-video/issues"
+  },
+  "homepage": "https://github.com/Nithil-coffeebeans/stream-nodejs-video#readme",
+  "dependencies": {
+    "ejs": "^3.1.10",
+    "express": "^4.21.2"
+  }
+}
